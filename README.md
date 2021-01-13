@@ -13,12 +13,12 @@ mkdir myproject
 #### Mac / Linux:  
 
 `venv/bin/activate`
-#### Windows:
+#### Windows:  
 
-* venv\Scripts\activate
+`venv\Scripts\activate`
 
 ### Install PyTorch and dependencies
-For Installation of PyTorch see official website.
+For Installation of PyTorch see official website.  
 https://pytorch.org/get-started/locally/
 
 ### nltk:
@@ -40,5 +40,11 @@ python chat.py
 ### Customize
 Have a look at intents.json. You can customize it according to your own use case. Just define a new tag, possible patterns, and possible responses for the chat bot. You have to re-run the training whenever this file is modified.  
 
-I have used multiple text-files for the games as this was a school project, which requires usage of text files. Feel free to modify the code to your liking.
+After running the train.py file, run the chat.py file.  
+You can try commands like  
+* Can we play?
+* Tell me a joke
+* what is your purpose?
+* Puns?
+* Riddles please
 
