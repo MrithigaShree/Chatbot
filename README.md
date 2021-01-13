@@ -5,8 +5,9 @@ This is Baymax. Except all he does it play games, jokes around, and occasionally
 ### Create an environment - conda or venv
 
 mkdir myproject
+`
 * $ cd myproject
-* $ python3 -m venv venv
+* $ python3 -m venv venv `
 
 ### Activate it
 #### Mac / Linux:
@@ -26,6 +27,8 @@ If you get an error during the first run, you also need to install nltk.tokenize
 
 $ python
 `import nltk`
+
+
 `nltk.download('punkt')`
 
 ### Run
