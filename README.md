@@ -33,10 +33,9 @@ $ python
 
 ### Run
 
-python train.py  
-This will dump the new data in to the data.ph file
-
-python chat.py
+`python train.py  `  
+This will dump the new data in to the data.ph file  
+`python chat.py`  
 ### Customize
 Have a look at intents.json. You can customize it according to your own use case. Just define a new tag, possible patterns, and possible responses for the chat bot. You have to re-run the training whenever this file is modified.  
 
@@ -46,5 +45,6 @@ You can try commands like
 * Tell me a joke
 * what is your purpose?
 * Puns?
-* Riddles please
+* Riddles please  
+
 
