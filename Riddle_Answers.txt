@@ -1,0 +1,5 @@
+echo
+darkness
+all
+doorbell
+vegetable
