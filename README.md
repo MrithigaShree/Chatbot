@@ -2,8 +2,7 @@
 This is Baymax. Except all he does it play games, jokes around, and occasionally roasts you.
 
 # Installation
-### Create an environment
-Whatever you prefer (e.g. conda or venv)
+### Create an environment - conda or venv
 
 mkdir myproject
 * $ cd myproject
@@ -12,11 +11,12 @@ mkdir myproject
 ### Activate it
 #### Mac / Linux:
 
-. venv/bin/activate
+* venv/bin/activate
 #### Windows:
 
-venv\Scripts\activate
-Install PyTorch and dependencies
+* venv\Scripts\activate
+
+### Install PyTorch and dependencies
 For Installation of PyTorch see official website.
 
 ### You also need nltk:
@@ -31,10 +31,11 @@ Usage
 ### Run
 
 python train.py
-This will dump data.pth file. And then run
+This will dump the new data in to the data.ph file
 
 python chat.py
 ### Customize
 Have a look at intents.json. You can customize it according to your own use case. Just define a new tag, possible patterns, and possible responses for the chat bot. You have to re-run the training whenever this file is modified.
 
-{
+I have used multiple text-files for the games as this was a school project, which requires usage of text files. Feel free to modify the code to your liking.
+
