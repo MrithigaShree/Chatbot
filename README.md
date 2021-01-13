@@ -25,13 +25,8 @@ For Installation of PyTorch see official website.
 pip install nltk
 If you get an error during the first run, you also need to install nltk.tokenize.punkt: Run this once in your terminal:
 
-$ python
-
-
-
-`import nltk`
-
-
+$ python  
+`import nltk`  
 `nltk.download('punkt')`
 
 ### Run
