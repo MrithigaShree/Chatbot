@@ -6,13 +6,14 @@ This is Baymax. Except all he does it play games, jokes around, and occasionally
 Whatever you prefer (e.g. conda or venv)
 
 mkdir myproject
-$ cd myproject
-$ python3 -m venv venv
-Activate it
-Mac / Linux:
+*$ cd myproject
+*$ python3 -m venv venv
+
+### Activate it
+#### Mac / Linux:
 
 . venv/bin/activate
-### Windows:
+#### Windows:
 
 venv\Scripts\activate
 Install PyTorch and dependencies
