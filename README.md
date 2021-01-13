@@ -5,8 +5,8 @@ This is Baymax. Except all he does it play games, jokes around, and occasionally
 ### Create an environment - conda or venv
 
 mkdir myproject
-`
-* $ cd myproject
+
+` $ cd myproject
 * $ python3 -m venv venv `
 
 ### Activate it
@@ -26,6 +26,9 @@ pip install nltk
 If you get an error during the first run, you also need to install nltk.tokenize.punkt: Run this once in your terminal:
 
 $ python
+
+
+
 `import nltk`
 
 
